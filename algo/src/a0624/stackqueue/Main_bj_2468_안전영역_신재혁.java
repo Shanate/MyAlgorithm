@@ -10,7 +10,6 @@ public class Main_bj_2468_안전영역_신재혁 {
 		static int[][] area;
 		static int N;
 		static int maxHeight, maxSafeArea = 0;
-		static int C=0;
 		
 		private static void dfs(int i, int j, int h) {
 			visited[i][j] = true;
@@ -39,7 +38,7 @@ public class Main_bj_2468_안전영역_신재혁 {
 			for (int j=0; j<N; j++) {
 				area[i][j] = Integer.parseInt(st.nextToken());
 				if(area[i][j]>maxHeight) {
-					maxHeight = area[i][j]; // 최대 높이 구하기
+					maxHeight = area[i][j]; // 최대 높이 구하기 // 배열이 끝날 때까지 계속 갱신
 				}
 			}
 		}
