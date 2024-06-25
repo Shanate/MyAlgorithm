@@ -62,6 +62,6 @@ public class Main_bj_2468_안전영역_신재혁 {
 		}
 		
 		System.out.println(maxSafeArea);
-		
+		//
 	}
 }
