@@ -33,3 +33,5 @@ public class Main_bj_1181_단어정렬_신재혁 {
 //		for(int i=0; i<N; i++) { // 단어 중복 문제로 사용 X
 //			System.out.println(arr[i]);
 //		}
+
+// Hashset으로 중복 단어제거 고려
