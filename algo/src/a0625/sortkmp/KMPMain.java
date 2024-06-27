@@ -18,7 +18,7 @@ public class KMPMain {
 			while(p>0 && T.charAt(t)!=P.charAt(p)) p=F[p-1];
 			if(T.charAt(t)==P.charAt(p)) {
 				if(p==P.length()-1) { // 찾았을 때
-					ans.add(t-p);
+					ans.add(t-p); // 0base, 1base+1
 					p=F[p];
 				} else {// 못 찾았을때
 					++p;
