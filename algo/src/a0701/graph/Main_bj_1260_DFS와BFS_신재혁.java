@@ -27,7 +27,7 @@ public class Main_bj_1260_DFS와BFS_신재혁 {
 //		System.out.println(Arrays.deepToString(g));
 		dfs(V-1); // 탐색 시작 정점부터 시작하기
 		System.out.println();
-		Arrays.fill(v, false);
+		Arrays.fill(v, false); // 방문 초기화
 		bfs(V-1);
 	}
 
